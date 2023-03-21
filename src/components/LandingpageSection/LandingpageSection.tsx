@@ -30,7 +30,7 @@ const LandingpageSection = ({ osaaminenRef }: any) => {
               <button onClick={scrollToOsaamisetRef}>Osaaminen</button>
             </div>
             <div className="landingpage_section_left_container_button">
-              <a href={`http://${import.meta.env.VITE_APP_URL}`}>
+              <a href={`${import.meta.env.VITE_APP_URL}`}>
                 <button>Siirry sovellukseen</button>
               </a>
             </div>
