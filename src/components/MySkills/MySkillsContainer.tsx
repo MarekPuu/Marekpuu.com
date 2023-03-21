@@ -14,7 +14,7 @@ const MySkillsContainer = ({ osaaminenRef }: any) => {
 
           return (
             <div key={index} className={element.className}>
-              <a target="_blank" href={`${import.meta.env.VITE_APP_URL}`}>
+              <a href={`http://${import.meta.env.VITE_APP_URL}`}>
                 <SingleSkill imageName={element.imageName} />
               </a>
             </div>

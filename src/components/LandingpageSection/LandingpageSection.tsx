@@ -13,8 +13,6 @@ const LandingpageSection = ({ osaaminenRef }: any) => {
     });
   };
 
-  console.log(import.meta.env.VITE_APP_URL);
-
   return (
     <div className="landingpage_section">
       <div className="landingpage_section_container">
@@ -32,7 +30,7 @@ const LandingpageSection = ({ osaaminenRef }: any) => {
               <button onClick={scrollToOsaamisetRef}>Osaaminen</button>
             </div>
             <div className="landingpage_section_left_container_button">
-              <a target="_blank" href={`${import.meta.env.VITE_APP_URL}`}>
+              <a href={`http://${import.meta.env.VITE_APP_URL}`}>
                 <button>Siirry sovellukseen</button>
               </a>
             </div>
