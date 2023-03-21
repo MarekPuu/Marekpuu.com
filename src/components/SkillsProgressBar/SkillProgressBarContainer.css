@@ -1,0 +1,11 @@
+.skills_progressbar_container_element:not(:first-of-type) {
+  margin-top: 15px;
+}
+
+.skills_progressbar_container_container {
+  height: fit-content;
+}
+.elementRef {
+  height: 0px;
+  width: 0px;
+}
