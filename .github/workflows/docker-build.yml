@@ -25,3 +25,5 @@ jobs:
           file: ./docker/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/portfolio_frontpage:latest
+          build-args: |
+            APP_URL=app.marekpuu.com
