@@ -26,4 +26,4 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/portfolio_frontpage:latest
           build-args: |
-            APP_URL=app.marekpuu.com
+            APP_URL=${{ secrets.APP_URL }}
