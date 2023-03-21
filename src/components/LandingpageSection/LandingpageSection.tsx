@@ -13,6 +13,8 @@ const LandingpageSection = ({ osaaminenRef }: any) => {
     });
   };
 
+  console.log(import.meta.env.VITE_APP_URL);
+
   return (
     <div className="landingpage_section">
       <div className="landingpage_section_container">
