@@ -12,11 +12,17 @@ const AboutSection = () => {
           </div>
           <div className="about_section_text">
             <p>
-              Minua kiehtoo oppia uusia asioita ja samalla kehittää omaa
-              osaamista ja haastaa itseäni. Tämän takia olen opiskellut
-              vapaa-ajalla paljon web-ohjelmointia ja tämä kiinnostaa tällä
-              hetkellä eniten. Omaan hyvät ryhmätyötaidot ja tykkään oppia
-              ihmisiltä, jotka ovat kokeneempia.
+              Olen motivoitunut ja kunnianhimoinen nuori, joka etsii
+              mahdollisuuksia kasvaa ja kehittyä työelämässä. Olen täynnä intoa
+              ja positiivista energiaa, minä tartun rohkeasti uusiin haasteisiin
+              ja pyrin aina ylittämään itseni. Kehitän jatkuvasti itseäni ja
+              osaan sopeutua muuttuviin olosuhteisiin.
+            </p>
+            <p style={{ marginTop: '1rem' }}>
+              Yhteistyö on minulle tärkeää, ja minä pyrin aina luomaan avoimen
+              ja kannustavan ilmapiirin työyhteisössä.Olen ystävällinen ja
+              rehellinen joka tekee minusta helposti lähestyttävän ja olen aina
+              valmis auttamaan työkavereitani tarvittaessa.
             </p>
           </div>
         </div>
