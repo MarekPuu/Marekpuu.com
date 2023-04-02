@@ -27,3 +27,4 @@ jobs:
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/portfolio_frontpage:latest
           build-args: |
             APP_URL=${{ secrets.APP_URL }}
+            GOOGLE_ANALYTICS_TRACKING_ID=${{ secrets.GOOGLE_ANALYTICS_TRACKING_ID }}
