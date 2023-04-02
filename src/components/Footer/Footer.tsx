@@ -15,8 +15,8 @@ const Footer = () => {
   };
 
   return (
-    <div className='footer_container'>
-      <div className='footer_container_logo_container'>
+    <div className="footer_container">
+      {/* <div className='footer_container_logo_container'>
         <div className='logo'>
           <a
             target='_blank'
@@ -35,16 +35,16 @@ const Footer = () => {
             <img src={twitter} alt='twitter' />
           </a>
         </div>
-      </div>
-      <div className='footer_container_links'>
+      </div> */}
+      <div className="footer_container_links">
         <ul>
           <li>
-            <a href='mailto:marek.puurunen@gmail.com'>
+            <a href="mailto:marek.puurunen@gmail.com">
               <button onClick={openModal}>Ota yhteyttä</button>
             </a>
           </li>
           <li>
-            <a target='_blank' href={`${import.meta.env.VITE_APP_URL}`}>
+            <a target="_blank" href={`${import.meta.env.VITE_APP_URL}`}>
               Siirry sovellukseen
             </a>
           </li>
@@ -53,7 +53,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className='footer_container_copyright'>
+      <div className="footer_container_copyright">
         <p>© 2023 Marek Puurunen</p>
       </div>
     </div>
